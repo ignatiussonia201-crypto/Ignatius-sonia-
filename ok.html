@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+ h1{
+background: linear-gradient(270deg, green, red, blue, pink, purple);
+background-size: 400% 400%;
+animation: gradientmove 5s ease infinite;
+}
+@keyframes gradientmove {
+0%{
+background-position: 0% 50%;
+}
+50%{
+background-position: 100% 50%;
+}
+100%{
+background-position: 0% 50%;
+}
+}
+h2{
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px  black;
+  transition: 5s;
+  width: 50%;
+}
+h2:hover{
+  transform: scale(1.1);
+  color: black;
+  background: linear-gradient(200deg, pink, green);
+  text-shadow: 3px 3px 4px white;
+}
+</style>
+<body>
+  <h2>LOGIN FORM</h2>
+  <form action="submit_form" method="get" accept-charset="utf-8">
+  <fieldset>
+    <legend>Login form</legend>
+  <p>Email:</p>
+  <form action="submit-form" method="get">
+    <input type="email" name="email" id="emai" required/>
+    <p>Username:</p>
+    <input type="text" name="username" id="username" required/>
+    <p>Password:</p>
+    <input type="password" name="password" id="password" required/>
+      <p>Confirm password:</p>
+    <input type="password" name="confirm_password" id="confirm_password" required />
+  </fieldset>
+  <fieldset>
+    <legend>Terms and conditions</legend>
+    <label>
+      <input type="checkbox" name="" id="" value="" />I hereby agree to the terms and conditions 
+      </label>
+  </fieldset>
+  <p>
+  <input type="submit" value"submit">
+  </p>
+  </form>
+  <h1>SONIA BABY</h1>
+  
+</body>
+</html>
