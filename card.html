@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Profile Card</title>
+        <style>
+                * {
+                        box-sizing: border-box;
+                        padding: 0;
+                        margin: 0;
+                }
+                
+                body {
+                        font-family: serif;
+                        width: 100%;
+                        box-sizing: border-box;
+                        color: white;
+                        background: linear-gradient(to top, green, skyblue) no-repeat;
+                        max-width: 1000px;
+                        height: 1500px;
+                }
+                
+                .container {
+                        box-shadow: 9px 9px 5px black, 5px 8px 8px hotpink;
+                        max-width: 500px;
+                        width: 90%;
+                        height: 80%;
+                        padding: 30px;
+                        margin: 40px auto;
+                        
+                        top: 20px;
+                        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(/3.jpg) no-repeat;
+                        background-size: cover;
+                        background-position: bottom;
+                }
+                
+                h1 {
+                        text-align: center;
+                        font-size: 25px;
+                        text-shadow: 0 2px 4px white, 0 1px 1px hotpink;
+                        transition: 0.3s;
+                }
+                
+                h1:hover {
+                        text-shadow: 0 2px 3px hotpink, 0 3px 5px lightgreen;
+                }
+                
+                .pics {
+                        border-radius: 50%;
+                        height: 130px;
+                        width: 7rem;
+                        margin: auto;
+                        margin-bottom: 15px;
+                        margin-top: 10px;
+                        margin-left: 60px;
+                        box-shadow: 0 3px 5px black;
+                        border: 2px solid black;
+                        transition: 6s ease-in-out;
+                }
+                
+                .pics:hover {
+                        transform: scale(1.1);
+                }
+                
+                a{
+                        color: green;
+                        transition: 0.5s;
+                        text-decoration: none;  color: white;
+                        text-shadow: 0 2px 1px black;
+                }
+                
+                a:hover {
+                scale(1.5);
+                }
+                
+                
+                
+                p {
+                      margin-bottom: 15px;
+                        font-size: 29px;
+                        text-align: center;
+                        text-shadow: 2px 1px 3px black;
+                }
+                
+                ul {
+                        margin-bottom: 15px;
+                }
+                
+                #link {
+                        color: green;
+                        font-family: serif;
+                        font-weight: bold;
+                        text-shadow: 1px 2px 4px lightpink;
+                }
+                
+                h3 {
+                        text-align: center;
+                        text-shadow: 1px 2px 3px black;
+                        margin-bottom: -9px;
+                        
+                }
+                
+                .boi {
+                        font-size: 15px;
+                        margin-left: -15px;
+                        
+                }
+                
+                .b {
+                        color: red;
+                        text-shadow: 2px 2px 2px black;
+                        font-weight: bolder;
+                }
+                
+                .logo img {
+                        width: 55px;
+                        height: 40px;
+                        box-shadow: 2px 2px 3px black;
+                        border: 2px solid black;
+                        border-radius: 15px;
+                        transition: 0.3s ease-in-out;
+                }
+                .logo img:hover{
+                      transform: scale(0.7);  
+                }
+                        .land{
+                                color: white;
+                                font-size: 20px;
+                                text-shadow: 1px 1px 3px wheat;
+                        }
+                        .title{
+                                font-weight: bolder;
+                                text-shadow: 6px 6px 5px black;
+                        }
+                        .ink{
+                                color: yellowgreen;
+                        transition: 3s ease-in-out;        text-shadow: 7px 7px 5px black;
+                        }
+                        .ink:hover{
+                                color: yellowgreen;
+               transform: scale(0.8); 
+                       font-size: 18px;         
+                        }
+                        ol li{
+                                padding: 10px;
+                                line-height: 29px;
+                        }
+                        ul li{
+                                padding: 10px;
+                        }
+        </style>
+</head>
+
+<body>
+        <main class="container">
+                <h1 class="name">Ignatius Sonia</h1>
+                <img src="/IMAGES /WhatsApp Image 2025-07-05 at 18.15.54_9c247a63.jpg" alt="My profile pics" class="pics">
+                <p class="boi"><span class="b">BIO: </span>This is my first step in becoming a web developer.
+                </p>
+                <p class="skil">SKILLS</p>
+                <ul class="skill">
+                        <li>Web Development (HTML & CSS)</li>
+                        <li>Basic AI Photo & Video Editing</li>
+                </ul>
+                <p class="skill">PORTFOLIO</p>
+                <ol>
+        <li><span class="title">TITLE :</span> Personal Portfolio Website <br>
+       DESCRIPTION : A simple responsive website built with HTML & CSS to showcase skills, projects, and contact information. <br><a href="/webs.html" class="ink">CLICK TO VIEW MY WORK</a></li><li><span class="title">TITLE : </span>Business Landing Page with PayPal Payment Integration <br>
+       DESCRIPTION : A modern landing page designed for selling services online.
+Includes pricing plans, PayPal payment buttons, portfolio section,
+and contact options. Built with HTML & CSS.<br><a href="/s.html" class="ink">CLICK TO VIEW MY WORK</a></li>
+                </ol><br>
+                <h3>Contact info</h3><br>
+                <div class="logo">
+                        <a href="https://github.com/ignatiussonia201-crypto/Ignatius-sonia-" target="_blank" class="link"><img src="/git.jpg" alt="GitHub" title="GitHub"/></a>
+                        <a href="https://wa.me/2348138687594" target="_blank" class="link"><img src="/wa.jpg" alt="WhatsApp" title="WHATSAPP"></a>
+                        <a href="https://t.me/glambysonia" target="_blank" class="link" ><img src="/tel.jpg" alt=""></a>
+                        <a href="mailto:ignatiussonia4@gmail.com" target="_blank" class="link"><img src="/em.jpg" alt="Email"></a>
+                </div>
+                </div>
+</body>
+
+</html>
